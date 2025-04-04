@@ -26,7 +26,7 @@ npm install
 
 Để đẩy schema của Prisma lên cơ sở dữ liệu, chạy:
 ```bash
-npm run db.push
+npm run db:push
 ```
 
 ### 4. Chạy server phát triển
