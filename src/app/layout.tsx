@@ -3,7 +3,6 @@ import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 import { TRPCReactProvider } from "@/trpc/react";
 import { Toaster } from "@/components/ui/toaster";
-// import { AppSidebar } from "@/components/app-sidebar";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 
 export const metadata: Metadata = {
@@ -25,7 +24,6 @@ export default function RootLayout({
           <Toaster />
           <TRPCReactProvider>
             <SidebarProvider>
-              {/* <AppSidebar /> */}
               <SidebarInset>{children}</SidebarInset>
             </SidebarProvider>
           </TRPCReactProvider>
