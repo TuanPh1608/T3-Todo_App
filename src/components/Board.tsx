@@ -1,8 +1,8 @@
 // components/Board.tsx
 
 import React from "react";
-import TodoItem from "@/components/TodoItem";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import TodoItem from "./TodoItem";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { columnStyles } from "@/lib/utils";
 
 interface IfetchedData {
