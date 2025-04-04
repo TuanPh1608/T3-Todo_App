@@ -7,7 +7,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 
 export const metadata: Metadata = {
-  title: "Todo | The choto programmer",
+  title: "To do App",
   description: "Todo app with prisma,T3 stack ",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
